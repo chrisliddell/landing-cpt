@@ -25,7 +25,7 @@ $(document).on("click","#participar",function(){
 	var edad = $("#edad").val();
 	var regEx = /\S+@\S+\.\S+/; //para validar correo
 
-	if (/*grecaptcha.getResponse() != ''*/ true) {
+	if (grecaptcha.getResponse() != '') {
 		if( (nombre != "")&&(telefono != "")&&(correo != "")&&(cedula != "")&&(genero != "")&&(tienda != "")&&(acepta) ){
 			//validar edad
 			if(edad > 17 && edad <100){
@@ -61,7 +61,7 @@ $(document).on("click","#participar",function(){
 											$("#mensaje").html("Recibido, gracias por sus datos");      
 
 											setTimeout(function(){
-												$("#mensaje").html("");
+												$("#mensaje").html("cueropapelytijera.net");
 												$("#mensaje").fadeOut("fast");
 												location.href = "";
 												$("#promocion")[0].reset();

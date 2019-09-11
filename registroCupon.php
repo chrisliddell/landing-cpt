@@ -17,8 +17,8 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
 	//credenciales de la base de datos
 	$servername = "localhost";
 	$username = "root";
-	$password = "";
-	$dbname = "prueba_cupones";
+	$password = "L2SNS=Hoirm0LL7";
+	$dbname = "cuepatijera";
 
 	//conexion con las base de datos
 	$conn = new mysqli($servername, $username, $password, $dbname);

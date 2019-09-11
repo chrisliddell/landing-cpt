@@ -1,8 +1,8 @@
 <?php
 
-$username = 'chrisliddell78958@gmail.com';
-$password = 'chris_lh78958';
-$from = 'chrisliddell78958@gmail.com';
+$username = 'info@cueropapelytijera.com';
+$password = 'Cuero@1324';
+$from = 'info@cueropapelytijera.com';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -36,13 +36,14 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;      
     $mail->SMTPDebug  = 3;
-
+	
     $mail->Username = $username;
     $mail->Password = $password;
     $mail->SMTPSecure = 'tls';     
     $mail->Port = 25; 
     $mail->setFrom($from);
-    $mail->addAddress('jgranados@imagineercx.com');   
+    $mail->addAddress($email);   
+    $mail->addCC('chrisliddell78958@gmail.com');
     $mail->isHTML(true);                                 
 
     $myfile = fopen("dist.html", "r") or die("Unable to open file!");

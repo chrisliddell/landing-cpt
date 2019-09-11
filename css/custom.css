@@ -101,11 +101,7 @@ body{
 	color: black;
 	font-weight: 600;
 }
-.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
-    background: #ebf4f8;
-    color: #000;
-}
-label,
+
 #acp{
 	color: #032f5f;
 }
@@ -120,8 +116,7 @@ header.row div.col-md-12.text-right{
 	display: block;
     margin-bottom: 20px;
 }
-#wrapPromocion{
-}
+
 #promocion {
     margin-bottom: 0%;
     margin-top: 0%;
@@ -294,8 +289,11 @@ button.owl-next{
 	display: none;
 }
 div.g-recaptcha{
-	width: 100%;
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
 	margin-top: 5%;
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
 }
 
 #nombre-completo{

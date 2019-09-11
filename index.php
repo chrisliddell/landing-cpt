@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="es_CR">
 
@@ -76,7 +77,7 @@
 							<a href="#restricciones"><u style="color: black; margin-left:5%;">Acepto condiciones*</u></a>
 						</span>
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LdQurcUAAAAAN4mFkEnKsq27jt0zAvfbgpfcRcY"></div>
+					<div class="g-recaptcha" data-sitekey="6Ldv6rcUAAAAALthlcRwUEB9O9QQQtDPtUodzlBr"></div>
                     <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
 					</br>
 					<div id="msjDiv">
