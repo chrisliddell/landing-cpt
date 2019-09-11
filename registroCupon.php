@@ -15,10 +15,10 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
 	$tienda = $_POST['selectTienda'];	
 	
 	//credenciales de la base de datos
-	$servername = "localhost";
+	$servername = "cueropapelytijera";
 	$username = "root";
 	$password = "L2SNS=Hoirm0LL7";
-	$dbname = "cuepatijera";
+	$dbname = "cupones_cpt";
 
 	//conexion con las base de datos
 	$conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,11 +29,11 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
 	//consulta que va a ejecutarse
 	$sql = "INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('".$nombre."', '".$cedula."', '".$genero."', '".$edad."', '".$tel."', '".$correo."', '".$tienda."')";
 	
-	//escribir en el registro
+	/*escribir en el registro
 	$fp = fopen('bd.log', 'a+');
 	fwrite($fp, "\n".$sql."\n");
 	fclose($fp);
-	
+	*/
 		
 	if($conn->query($sql) === FALSE){
 		echo "Error";

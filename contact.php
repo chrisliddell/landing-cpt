@@ -21,12 +21,12 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
 	$promocion = "Cupón promocional de Cuero, Papel y Tijera.";
 
     $datos = "nombre: " . $name.", tel: ".$phone.", correo: ".$email."\n";
-	/** RESPALDO DE EMAIL **/
+	/* RESPALDO DE EMAIL 
 	$req_dump = print_r($datos, TRUE);
 	$fp = fopen('email.log', 'a+');
 	fwrite($fp, "\n".$req_dump."\n");
 	fclose($fp);
-	/***********************/
+	*/
 
     $mail = new PHPMailer;
 
@@ -40,10 +40,9 @@ if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
     $mail->Username = $username;
     $mail->Password = $password;
     $mail->SMTPSecure = 'tls';     
-    $mail->Port = 25; 
+    $mail->Port = "587"; 
     $mail->setFrom($from);
     $mail->addAddress($email);   
-    $mail->addCC('chrisliddell78958@gmail.com');
     $mail->isHTML(true);                                 
 
     $myfile = fopen("dist.html", "r") or die("Unable to open file!");
