@@ -1,0 +1,14 @@
+﻿
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('chris', '234124', 'M', '24', '1234', 'chrisliddell78958@gmail.com', 'Sabana')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('chris', '11618', 'M', '23', '542', 'chrisliddell78958@gmail.com', 'Sabana')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('pepe', '99', 'M', '54', '888', 'chrisliddell78958@gmail.com', 'Sabana')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('anona', '555', '-', '78', '789', 'chrisliddell78958@gmail.com', 'Pinares')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('df', '2341244', 'F', '43', '155', 'chrisliddell78958@gmail.com', 'Pinares')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('aaaaa', '11', 'F', '19', '11111', 'chrisliddell78958@gmail.com', 'Pinares')
+
+INSERT INTO cupon (nombre, cedula, genero, edad, tel, correo, tienda) VALUES ('aaaa', '111', 'F', '55', '11111111', 'chrisliddell78958@gmail.com', 'Sabana')

@@ -1,0 +1,909 @@
+@font-face { font-family: Montserrat-Black; src: url('fonts/Montserrat-Black.otf'); } 
+@font-face { font-family: Montserrat-Regular; src: url('fonts/Montserrat-Regular.otf'); } 
+@font-face { font-family: Montserrat-SemiBold; src: url('fonts/Montserrat-SemiBold.otf'); }
+@font-face { font-family: MontserratAlternates-Light; src: url('fonts/MontserratAlternates-Light.otf'); } 
+@font-face { font-family: Lato-Bold; src: url('fonts/Lato-Bold.ttf'); } 
+@font-face { font-family: Lato-bold-webfont; src: url('fonts/Lato-bold-webfont.ttf'); } 
+@font-face { font-family: Lato-Regular; src: url('fonts/Lato-Regular.ttf'); } 
+@font-face { font-family: Lato-regular-webfont; src: url('fonts/Lato-regular-webfont.ttf'); } 
+@font-face { font-family: Lato-Light; src: url('fonts/Lato-Light.ttf'); } 
+@font-face { font-family: Lato-light-webfont; src: url('fonts/Lato-light-webfont.ttf'); } 
+  
+#p1{
+	font-size:4vw;
+	font-family: MontserratAlternates-Light, sans-serif;
+}
+
+#p2{
+	font-size:1.8vw;
+	font-family: MontserratAlternates-Light, sans-serif;
+	margin-left:1%;
+}
+
+#p3{
+	font-size:11vw;
+	font-family: Montserrat-Black, sans-serif;
+	display:block;
+	margin: -4%;
+}
+
+#p4{
+	font-size:3vw;
+	font-family: Montserrat-Semibold, sans-serif;
+}
+
+#p5{
+	font-size: 3vw; 
+	font-family: Lato-Bold, sans-serif;
+	color: #ff7942; 
+	float: right;
+}
+
+#p6{
+	font-size: 3vw; 
+	font-family: Montserrat-Regular, sans-serif;
+	color: #ff7942; 
+	float: right;
+}
+
+#p7{
+	font-size: 1.5vw;
+	font-family: Lato-Light, sans-serif;
+	display: block;
+}
+
+#rest{
+	color: #ff7942;
+	display: block;
+	font-family: Lato-Regular, sans-serif;
+	margin-top: 5%;
+	font-size: 1.6vw;
+}
+#gracias1{
+	color: #ff7942;
+	display: block;
+	font-family: Montserrat-SemiBold, sans-serif;
+	width:100%; 
+	margin: 0 auto;
+	font-size: 2.4vw;
+}
+
+#gracias2{
+	color: #ff7942;
+	display: block;
+	font-family: Lato-Light, sans-serif;
+	width:100%; 
+	margin: 0 auto;
+	font-size: 1.5vw;
+	margin-top:10%;
+	color: black;
+}
+
+body{
+	background-color: white;
+	background-repeat: repeat-x;
+	font-size: 14px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: black;
+	opacity: 1; /* Firefox */
+	font-weight: 600;
+	
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: black;
+	font-weight: 600;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: black;
+	font-weight: 600;
+}
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+    background: #ebf4f8;
+    color: #000;
+}
+label,
+#acp{
+	color: #032f5f;
+}
+header.row div.col-md-12.text-right{
+	padding: 0;
+	margin:0;
+}
+.deco{
+	clear: both;
+}
+.esencial{
+	display: block;
+    margin-bottom: 20px;
+}
+#wrapPromocion{
+}
+#promocion {
+    margin-bottom: 0%;
+    margin-top: 0%;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#features {
+    margin-top: 0%;
+}
+
+li{
+	margin-bottom:10px;
+}
+
+#features li{
+	float: left;
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+#observaciones{
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 92%;
+	max-width: 92%;
+}
+#infoPromo{
+	position:relative;
+}
+#infoPromo ul, #infoPromo p{
+
+}
+#infoPromo ul{
+	list-style: none;
+}
+.modal-title{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-weight: 900;
+}
+.modal-content{
+	background-color: #25408f;
+}
+.modal-footer,
+.modal-header{
+	border: 0 none;
+}
+
+#imHeader{
+	width:100%;
+}
+
+#imFooter{
+    display:block;
+    margin:auto;
+	width: 32%;
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
+}
+
+
+#bolso{
+	width: 85%;
+	margin-left: -28%;
+}
+
+#cor{
+	width: 4%;
+	margin-right: 10px;
+}
+
+
+#imRect{
+	width: 55%;
+	position: relative;
+	z-index: 200;
+	overflow: visible;
+
+	
+}
+
+#rect{
+	z-index: -2;
+	position:relative;
+	background-color:#f3d0b0;
+	width: 100%;
+	
+}
+
+#bspace{
+	background-color:white;
+	bottom: 0;
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	z-index: 100;
+}
+
+#texto{
+	position: relative;
+	font-family: 'Lato-Light', sans-serif;
+	font-weight: 10;
+	color: white;
+	text-align: center;
+	font-size: 1.4vw;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 1.4%;
+	opacity: 0.6;
+}
+#reglamento{
+	position: relative;
+    margin-top: 200%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+#btnMensajeFinal{
+	margin: 0 auto;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	width: 185px;
+	color: #25596c;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.principal{
+	font-size: 18px;
+	text-align: center;
+}
+.secundario{
+	font-size: 15px;
+	text-align: center;	
+}
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover,
+.close{
+	color: #FFF;
+}
+a:hover{
+	color: #032f5f;
+    margin: 0 auto;
+}
+div.owl-item a{
+	display: block;
+}
+button.owl-prev{
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+button.owl-next{
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+#leyenda{
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#mensaje{
+	color:#000;
+	display: none;
+}
+div.g-recaptcha{
+	width: 100%;
+	margin-top: 5%;
+}
+
+#nombre-completo{
+	width: 100%;
+	margin-bottom:  5%;
+	padding: 5%;
+	color: black;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size:1.2vw;
+	border-style: none;
+	font-weight:500;
+}
+
+#cedula{
+	width: 100%;
+	margin-bottom: 5%;
+	padding: 5%;
+	color: black;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size:1.2vw;
+	border-style: none;
+	font-weight:500;
+}
+#edad{
+	width: 46%;
+	margin-bottom:  5%;
+	margin-left: 2%;
+	display:inline;
+	padding: 5%;
+	color: black;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size:1.2vw;
+	border-style: none;
+}
+#telefono{
+	width: 100%;
+	margin-bottom:  5%;
+	padding: 5%;
+	color: black;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size:1.2vw;
+	border-style: none;
+}
+#correo{
+	width: 100%;
+	margin-bottom:  5%;
+	padding: 5%;
+	color: black;
+	font-family: 'Lato-Regular', sans-serif;
+	font-size:1.2vw;
+	border-style: none;
+}
+#selectGenero{
+	width: 49%;
+	font-weight: 400;
+	padding: 5%;
+	margin-bottom:  5%;
+	margin-right: 2%;
+	color: black;
+	font-size:1.2vw;
+	font-weight: 600;
+	border-style: none;
+}
+#selectTienda{
+	width: 100%;
+	padding: 5%;
+	margin-bottom:  5%;;
+	color: black;
+	font-size:1.2vw;
+	font-weight: 600;
+	border-style: none;
+}
+#checkboxes{
+	width: 100%;
+	padding: 0%;
+	margin: 2%;
+	margin-right: 5%;
+	color: black;
+	font-size: 1vw;
+	font-weight: 600;
+}
+
+#acepto{
+	  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+}
+#mayorDeEdad{
+	  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+}
+
+#acpt{
+	margin-left:1%; 
+	display:inline;
+	font-size: 1vw;
+	font-weight: 600;
+	color: black;
+}
+#myr{
+	margin-left:2%; 
+	margin-right: 6%;
+}
+#agradecimiento{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	width: 40%;
+	background: rgba(255,255,255,0.85);
+	float: right;
+	margin-right: 15%;
+	margin-top: 10%;
+	margin-left: -10%;
+	padding: 4%;
+	
+	position: relative;
+	z-index: 1000;
+}
+
+#restricciones{
+	font-size: 20px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 8%;
+}
+
+#pInfo{
+	font-size: 1.6vw;
+	color: black;
+	position: relative;
+	font-family: Lato-Light, sans-serif;
+	float: right;
+	width: 50%;
+	height: 80%;
+	margin-right: 0%;
+	margin-left:-4%;
+	margin-top:-60%;
+}
+
+textarea{
+	width: 89%;
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #032f5f;
+	margin-left:13px;
+}
+#proceso{
+	display: none;
+	color: black;
+}
+
+.left {
+  width: 60%;
+  float: left;
+}
+
+.right {
+  width: 40%;
+  float: right;
+}
+
+.left2 {
+  width: 25%;
+  float:left;
+}
+
+.right2 {
+  width: 70%;
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+	padding: 2%;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-color:  #ff7942;
+}
+footer ul{
+	list-style-type: none;
+	padding-top: 45px;
+	padding-left: 0;
+}
+footer ul li h6{
+	min-height: 40px;
+	line-height: 40px;
+}
+header.deco{
+	background: none;
+}
+
+header.deco nav a img{
+	margin-top: 5%;
+	width: 70%;
+}
+form.estructuraForm{
+	background: rgba(251, 241, 231, 0.5); /* Old browsers */		
+	min-height: 300px;
+	padding: 10%;
+}
+#participar{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	display: block;
+	background-color: black;
+	font-family: Montserrat-Regular, sans-serif;
+	font-size: 1.8vw;
+	transition: opacity 2s;
+	border-radius: 0px;
+	border: 0 none;
+	color: #FFF;
+}
+#participar:hover{
+	opacity: 0.8;	
+}
+
+nav.row{
+	margin:0;
+}
+
+header{
+	padding: 0%;
+	width: auto;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#imgInfo {
+	margin-top: 10%;
+	min-height: 450px;
+	background-size: 90%;
+}
+.row{
+	width: 90%; 
+	margin: 0 auto;
+	padding-top: 2%;
+}
+
+@media screen and (max-width:800px) {
+
+	#p1{
+		font-size:6vw;
+		font-family: MontserratAlternates-Light, sans-serif;
+		margin-left: 8%;
+	}
+
+	#p2{
+		font-size:4vw;
+		font-family: MontserratAlternates-Light, sans-serif;
+		margin-left:1%;
+	}
+
+	#p3{
+		font-size:18vw;
+		font-family: Montserrat-Black, sans-serif;
+		display:block;
+		text-align: center;
+		margin: 0 auto;
+		margin-left: 8%;
+		margin-bottom: -8%;
+	}
+
+	#p4{
+		font-size:5vw;
+		font-family: Montserrat-Semibold, sans-serif;
+		
+		margin-left: 8%;
+	}
+
+	#p5{
+		font-size: 8vw; 
+		font-family: Lato-Bold, sans-serif;
+		color: #ff7942; 
+		float: right;
+	}
+
+	#p6{
+		font-size: 8vw; 
+		font-family: Montserrat-Regular, sans-serif;
+		color: #ff7942; 
+		float: right;
+	}
+
+	#p7{
+		font-size: 4.5vw;
+		font-family: Lato-Light, sans-serif;
+		display: block;
+	}
+		
+	#pInfo{
+		font-size: 3.5vw;
+		color: black;
+		position: relative;
+		font-family: Lato-Light, sans-serif;
+		float: right;
+		width: 50%;
+		height: 80%;
+		margin-right: 0%;
+		margin-left:-4%;
+		margin-top:-80%;
+	}
+	#rest{
+		color: #ff7942;
+		display: block;
+		font-family: Lato-Regular, sans-serif;
+		margin-top: 5%;
+		font-size: 4vw;
+		text-align:center;
+	}
+	#cor{
+		width: 12%;
+		margin-right: 5px;
+	}
+	#promocion {
+		margin-bottom: 0%;
+		margin-top: 0%;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	#wrapPromocion{
+		width:100%;
+	}
+		
+	div.g-recaptcha{
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 2%;
+		margin-bottom: 5%;
+		float: left;
+	}
+
+	#nombre-completo{
+		width: 100%;
+		margin-bottom:  5%;
+		padding: 5%;
+		color: black;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size:4vw;
+		border-style: none;
+		font-weight:500;
+	}
+
+	#cedula{
+		width: 100%;
+		margin-bottom: 5%;
+		padding: 5%;
+		color: black;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size:4vw;
+		border-style: none;
+		font-weight:500;
+	}
+	#edad{
+		width: 40%;
+		margin-bottom:  5%;
+		margin-left: 2%;
+		display:inline;
+		padding: 5%;
+		color: black;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size:4vw;
+		border-style: none;
+	}
+	#telefono{
+		width: 100%;
+		margin-bottom:  5%;
+		padding: 5%;
+		color: black;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size:4vw;
+		border-style: none;
+	}
+	#correo{
+		width: 100%;
+		margin-bottom:  5%;
+		padding: 5%;
+		color: black;
+		font-family: 'Lato-Regular', sans-serif;
+		font-size:4vw;
+		border-style: none;
+	}
+	#selectGenero{
+		width: 49%;
+		font-weight: 400;
+		padding: 5%;
+		margin-bottom:  5%;
+		margin-right: 2%;
+		color: black;
+		font-size:4vw;
+		font-weight: 600;
+		border-style: none;
+	}
+	#selectTienda{
+		width: 100%;
+		padding: 5%;
+		margin-bottom:  5%;;
+		color: black;
+		font-size:4vw;
+		font-weight: 600;
+		border-style: none;
+	}
+	#checkboxes{
+		width: 100%;
+		padding: 0%;
+		color: black;
+		font-size: 1vw;
+		font-weight: 600;
+	}
+
+	#acepto{
+		  /* Double-sized Checkboxes */
+	  -ms-transform: scale(2); /* IE */
+	  -moz-transform: scale(2); /* FF */
+	  -webkit-transform: scale(2); /* Safari and Chrome */
+	  -o-transform: scale(2); /* Opera */
+	  transform: scale(2);
+	}
+	#mayorDeEdad{
+		  /* Double-sized Checkboxes */
+	  -ms-transform: scale(2); /* IE */
+	  -moz-transform: scale(2); /* FF */
+	  -webkit-transform: scale(2); /* Safari and Chrome */
+	  -o-transform: scale(2); /* Opera */
+	  transform: scale(2);
+	}
+
+	#acpt{
+		display:block;
+		font-size: 4vw;
+		font-weight: 600;
+		color: black;
+		margin-left:5%;
+		margin-top: 5%;
+	}
+	#myr{
+		margin-right: 6%;
+		display:block;
+		font-size: 4vw;
+		font-weight: 600;
+		color: black;
+		margin-left:5%;
+		margin-top: 5%;
+	}
+	#msjDiv{
+		margin-top: 30%;
+	}
+	#mensaje{
+		color:#000;
+		display: none;
+		font-size: 4vw;
+	}
+	#proceso{
+		color:#000;
+		display: none;
+		font-size: 8vw;
+	}
+
+	#restricciones{
+		font-size: 20px;
+		color: black;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10%;
+		margin-bottom: 8%;
+	}
+	#participar{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		display: block;
+		background-color: black;
+		font-family: Montserrat-Regular, sans-serif;
+		font-size: 5vw;
+		transition: opacity 2s;
+		border-radius: 0px;
+		border: 0 none;
+		color: #FFF;
+	}
+	#agradecimiento{
+		color: white;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		width: 80%;
+		background: rgba(255,255,255,0.85);
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		padding: 10%;
+		margin-top: -50px;
+		z-index: 1000;
+	}
+	
+	#gracias1{
+		color: #ff7942;
+		display: block;
+		font-family: Montserrat-SemiBold, sans-serif;
+		width:100%; 
+		margin: 0 auto;
+		font-size: 6vw;
+	}
+
+	#gracias2{
+		color: #ff7942;
+		display: block;
+		font-family: Lato-Light, sans-serif;
+		width:100%; 
+		margin: 0 auto;
+		font-size: 5vw;
+		margin-top:10%;
+		color: black;
+	}
+	#imRect{
+		width: 100%;
+		position: relative;
+		z-index: 200;
+		overflow: visible;
+	}
+
+	#rect{
+		z-index: -2;
+		position:relative;
+		background-color: white;
+		width: 100%;
+	
+	}
+	
+	#imFooter{
+		display:block;
+		margin:auto;
+		width: 80%;
+		margin-bottom: 2.5%;
+		margin-top: 2.5%;
+	}
+	
+	#texto{
+		position: relative;
+		font-family: 'Lato-Light', sans-serif;
+		font-weight: 10;
+		color: white;
+		text-align: center;
+		font-size: 4vw;
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 1.4%;
+		opacity: 0.6;
+		width: 70%;
+	}
+
+	.row{
+		width: 100%; 
+		margin: 0 auto;
+		padding-top: 2%;
+	}
+	.column {
+	  float: center;
+	  padding: 10px;
+	}
+	.column2 {
+	  float: center;
+	  width: 100%;
+	}
+	.left {
+	  width: 100%;
+	}
+
+	.right {
+	  width: 100%;
+	}
+	.left2 {
+	  width: 75%;
+	  margin: 0 auto;
+	  margin-bottom: 20px;
+	  text-align: center;
+	}
+
+	.right2 {
+	  width: 100%;
+	  padding: 5%;
+	  margin: 0 auto;
+	}
+	form.estructuraForm{
+		background: rgba(251, 241, 231, 0.5); /* Old browsers */		
+		min-height: 300px;
+		padding: 4%;
+	}
+
+}
